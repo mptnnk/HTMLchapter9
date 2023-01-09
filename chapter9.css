@@ -67,11 +67,14 @@ footer{
 }
 
 @media screen and (max-width:768px){
+  header{
+    width:100%;
+  }
 
   main{
     display:block;
     width:100%;
-    margin:50px 5% 50px;
+    margin:50px 5%;
   }
   
   .step-box{
@@ -82,6 +85,10 @@ footer{
   
   .step-box:last-child{
     margin-bottom:0;
+  }
+  
+  footer{
+    width:100%;
   }
   
 }
